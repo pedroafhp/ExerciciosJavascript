@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/Javascript" src="../Javascript/exercicio02.js"></script>
+    <title>Exercício 02</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Exercício 02</h1>
+        <nav>
+            <ul>
+                <a class="Exercicios" href="index.html"><li id="homePage">Página Inicial</li></a>
+               
+            </ul><!-- Colocar em tópicos -->
+        </nav><!-- Menu -->
+    </header>
+    <form>
+        <aside><!-- Conteúdo da página -->
+            <p>
+                Para saber o seu IMC, informe os valores abaixo.<br>
+            </p>
+        </aside>
+    </form>
+    <form>
+        <label>Informe Seu Peso </label><br>
+        <input type="number" name="peso" id="peso"><br>
+        <br>
+        <label>Informe Sua Altura: </label><br>
+        <input type="number" name="altura" id="altura"><br>
+        <br>
+    </form>
+    <textArea id="res" rows="10" cols="40" readonly></textArea><br>
+    <button type="submit" onclick="IMC()">Verificar</button><br>
+   
+</body>
+</html>
